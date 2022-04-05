@@ -15,7 +15,7 @@ const fetchData = async url => {
 
         return response.json()
     } catch({name, message}){
-        alert({ name , message})
+        alert(`${name}: ${message}`)
     }
 }
 
